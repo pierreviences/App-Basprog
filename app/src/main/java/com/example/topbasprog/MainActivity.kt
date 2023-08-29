@@ -1,51 +1,64 @@
 package com.example.topbasprog
 
+
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.appcompat.app.ActionBar
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.topbasprog.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var rvHeroes: RecyclerView
+    private lateinit var binding: ActivityMainBinding
     private val list = ArrayList<Basprog>()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        rvHeroes = findViewById(R.id.recView)
-        rvHeroes.setHasFixedSize(true)
-        list.addAll(getListHeroes())
+        val actionBar: ActionBar? = supportActionBar
+        val colorDrawable = ColorDrawable(ContextCompat.getColor(this, R.color.blueBar))
+        actionBar?.setBackgroundDrawable(colorDrawable)
+
+        binding.recView.setHasFixedSize(true)
+        list.addAll(getListBasprog())
         showRecyclerList()
     }
-    private fun getListHeroes(): ArrayList<Basprog> {
+
+    private fun getListBasprog(): ArrayList<Basprog> {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
-        val listHero = ArrayList<Basprog>()
+        val listBasprog = ArrayList<Basprog>()
         for (i in dataName.indices) {
-            val hero = Basprog(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
-            listHero.add(hero)
+            val basprog = Basprog(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
+            listBasprog.add(basprog)
         }
-        return listHero
+        return listBasprog
     }
 
     private fun showRecyclerList() {
-        rvHeroes.layoutManager = LinearLayoutManager(this)
-        val listHeroAdapter = ListBasprogAdapter(list)
-        rvHeroes.adapter = listHeroAdapter
+        binding.recView.layoutManager = LinearLayoutManager(this)
+        val listBasprogAdapter = ListBasprogAdapter(list)
+        binding.recView.adapter = listBasprogAdapter
 
-        listHeroAdapter.setOnItemClickCallback(object : ListBasprogAdapter.OnItemClickCallback {
+
+        listBasprogAdapter.setOnItemClickCallback(object : ListBasprogAdapter.OnItemClickCallback {
             override fun onItemClicked(data: Basprog) {
-                showSelectedHero(data)
+                showSelectedBasprog(data)
             }
         })
     }
 
-    private fun showSelectedHero(hero: Basprog) {
-        Toast.makeText(this, "Kamu memilih " + hero.name, Toast.LENGTH_SHORT).show()
+
+    private fun showSelectedBasprog(basprog: Basprog) {
+        Toast.makeText(this, "Kamu memilih " + basprog.name, Toast.LENGTH_SHORT).show()
     }
 }

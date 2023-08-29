@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TopBasprog</string>
+    <string name="app_name">Top 10 Basprog</string>
     <string name="description">Python adalah bahasa pemrograman tingkat tinggi yang populer karena sintaksis yang mudah dibaca dan ditulis. asdasdasdasdas asdasdasd </string>
     <string-array name="data_name">
         <item>Python</item>
