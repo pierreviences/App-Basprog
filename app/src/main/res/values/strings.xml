@@ -38,7 +38,7 @@
         <item>
             Kotlin adalah bahasa pemrograman modern yang dapat berjalan di atas platform Java Virtual Machine (JVM). Dikembangkan oleh JetBrains, Kotlin dirancang untuk meningkatkan produktivitas pengembang dengan sintaksis yang lebih ekspresif, aman, dan mudah dibaca. Kotlin dapat digunakan untuk pengembangan aplikasi Android, server-side, web, dan berbagai jenis aplikasi lainnya yang mendukung JVM.
         </item>
-         <item>
+        <item>
              PHP adalah bahasa pemrograman yang dirancang khusus untuk pengembangan web. PHP digunakan untuk membuat halaman web dinamis dengan kemampuan untuk berinteraksi dengan basis data, menghasilkan konten berdasarkan input pengguna, dan membuat aplikasi web yang kompleks. PHP sering kali dijalankan di sisi server dan bekerja sama dengan server web seperti Apache atau Nginx untuk menghasilkan halaman web yang dihasilkan secara dinamis.
          </item>
 
