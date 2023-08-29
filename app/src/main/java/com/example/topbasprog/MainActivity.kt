@@ -32,6 +32,11 @@ class MainActivity : AppCompatActivity() {
         showRecyclerList()
     }
 
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
     private fun getListBasprog(): ArrayList<Basprog> {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
