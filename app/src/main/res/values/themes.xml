@@ -5,7 +5,10 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-
+    <style name="Base.Theme.TopBasprog2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/white</item>
+    </style>
 
     <style name="Theme.TopBasprog" parent="Base.Theme.TopBasprog" />
 </resources>
