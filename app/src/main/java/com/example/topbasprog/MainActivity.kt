@@ -48,7 +48,9 @@ class MainActivity : AppCompatActivity() {
         binding.recView.layoutManager = LinearLayoutManager(this)
         val listBasprogAdapter = ListBasprogAdapter(list)
         binding.recView.adapter = listBasprogAdapter
-
+        binding.swipeRefreshLayout.setOnRefreshListener {
+            runSlideInAnimation(ListBasprogAdapter(list))
+        }
 
         listBasprogAdapter.setOnItemClickCallback(object : ListBasprogAdapter.OnItemClickCallback {
             override fun onItemClicked(data: Basprog) {
@@ -57,6 +59,18 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
+    private fun runSlideInAnimation(adapter: ListBasprogAdapter) {
+        for (i in 0 until adapter.itemCount) {
+            val holder = binding.recView.findViewHolderForAdapterPosition(i) as ListBasprogAdapter.ListViewHolder?
+            holder?.cardView?.startAnimation(
+                android.view.animation.AnimationUtils.loadAnimation(
+                    this,
+                    R.anim.animscroll
+                )
+            )
+        }
+        binding.swipeRefreshLayout.isRefreshing = false
+    }
 
     private fun showSelectedBasprog(basprog: Basprog) {
         Toast.makeText(this, "Kamu memilih " + basprog.name, Toast.LENGTH_SHORT).show()

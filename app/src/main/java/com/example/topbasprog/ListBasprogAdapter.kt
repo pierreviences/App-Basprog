@@ -44,6 +44,11 @@ class ListBasprogAdapter(private val listBasprog: ArrayList<Basprog>): RecyclerV
         holder.itemView.setOnClickListener {
             onItemClickCallback.onItemClicked(listBasprog[holder.adapterPosition])
         }
-
+        holder.cardView.startAnimation(
+            AnimationUtils.loadAnimation(
+                holder.cardView.context,
+                R.anim.animscroll
+            )
+        )
     }
 }
