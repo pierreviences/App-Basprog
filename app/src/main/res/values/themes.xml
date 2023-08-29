@@ -8,6 +8,12 @@
         <item name="titleTextColor">@color/white</item>
     </style>
 
+    <style name="ActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/ActionBarTitleTextStyle</item>
+    </style>
+    <style name="ActionBarTitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
 
     <style name="Base.Theme.TopBasprog2" parent="Theme.Material3.DayNight.NoActionBar">
          <item name="colorPrimary">@color/white</item>
