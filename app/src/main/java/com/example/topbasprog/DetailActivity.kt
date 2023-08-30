@@ -28,5 +28,6 @@ class DetailActivity : AppCompatActivity() {
         binding.tvDescription.text = basprog.description
         binding.gambar.setImageResource(basprog.photo)
         binding.kelebihan.text = basprog.kelebihan
+        binding.kekurangan.text = basprog.kekurangan
     }
 }
