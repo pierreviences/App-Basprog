@@ -1,5 +1,7 @@
 package com.example.topbasprog
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.topbasprog.databinding.ActivityDetailBinding
@@ -29,5 +31,6 @@ class DetailActivity : AppCompatActivity() {
         binding.gambar.setImageResource(basprog.photo)
         binding.kelebihan.text = basprog.kelebihan
         binding.kekurangan.text = basprog.kekurangan
+       
     }
 }

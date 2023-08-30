@@ -69,6 +69,19 @@
         <item>2000</item>
     </string-array>
 
+    <string-array name="data_overview">
+        <item>https://www.hostinger.co.id/tutorial/bahasa-pemrograman</item>
+        <item>https://www.hostinger.co.id/tutorial/bahasa-pemrograman</item>
+        <item>https://www.hostinger.co.id/tutorial/bahasa-pemrograman</item>
+        <item>https://www.hostinger.co.id/tutorial/bahasa-pemrograman</item>
+        <item>https://www.hostinger.co.id/tutorial/bahasa-pemrograman</item>
+        <item>https://www.hostinger.co.id/tutorial/bahasa-pemrograman</item>
+        <item>https://www.hostinger.co.id/tutorial/bahasa-pemrograman</item>
+        <item>https://www.hostinger.co.id/tutorial/bahasa-pemrograman</item>
+        <item>https://www.hostinger.co.id/tutorial/bahasa-pemrograman</item>
+        <item>https://www.hostinger.co.id/tutorial/bahasa-pemrograman</item>
+    </string-array>
+
     <string-array name="data_kelebihan">
         <item>
             1. Dukungan lintas platform.\n2. Kode yang lebih sedikit untuk tugas yang sama.\n3. Fokus pada keterbacaan kode.\n4. Banyak tutorial dan sumber belajar yang tersedia.\n5. Penerapan dalam berbagai bidang.\n

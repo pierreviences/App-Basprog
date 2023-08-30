@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity() {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataLikes = resources.getStringArray(R.array.data_suka)
         val dataYears = resources.getStringArray(R.array.data_tahun)
+        val dataUrl = resources.getStringArray(R.array.data_overview)
         val dataCreators = resources.getStringArray(R.array.data_pencipta)
         val dataKelebihan = resources.getStringArray(R.array.data_kelebihan)
         val dataDescription = resources.getStringArray(R.array.data_description)
@@ -59,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
         val listBasprog = ArrayList<Basprog>()
         for (i in dataName.indices) {
-            val basprog = Basprog(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1), dataLikes[i], dataCreators[i], dataYears[i], dataKelebihan[i], dataKekurangan[i])
+            val basprog = Basprog(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1), dataLikes[i], dataCreators[i], dataYears[i], dataKelebihan[i], dataKekurangan[i], dataUrl[i])
             listBasprog.add(basprog)
         }
         return listBasprog
