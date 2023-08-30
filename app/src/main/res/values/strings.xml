@@ -117,7 +117,7 @@
 
     <string-array name="data_kekurangan">
     <item>
-        1. Kinerja rendah untuk aplikasi berkinerja tinggi.\n2. Kurang luasnya komunitas dan sumber daya.\n3. Terbatasnya dukungan lintas platform.\n4. Pengelolaan memori manual.\n5. Tidak sepopuler beberapa bahasa lain dalam industri.\n
+        1. Kinerja rendah untuk aplikasi berkinerja tinggi.\n2. Kurang luasnya komunitas dan sumber daya.\n4. Pengelolaan memori manual.\n
     </item>
         <item>
         1. Keamanan sisi klien dapat rentan.\n2. Kode yang rumit cenderung sulit diatur.\n3. Performa mungkin tidak sebaik bahasa lain.\n4. Kontrol perangkat keras terbatas.\n5. Kurangnya fitur berorientasi objek.\n
@@ -126,7 +126,7 @@
         1. Rentan terhadap kesalahan pemrograman yang umum.\n2. Memerlukan pengaturan yang lebih rumit.\n3. Pengelolaan memori manual.\n4. Kode cenderung lebih panjang dan kompleks.\n5. Tidak banyak mendukung pengembangan web.\n
     </item>
         <item>
-        1. Kurang populer dibandingkan bahasa lain.\n2. Terbatasnya perpustakaan pihak ketiga.\n3. Belum ada pustaka standar yang kuat.\n4. Kurangnya dukungan untuk pengembangan aplikasi desktop.\n5. Penggunaan sintaksis yang lebih rumit.\n
+        1. Terbatasnya perpustakaan pihak ketiga.\n2. Belum ada pustaka standar yang kuat.\n3. Kurangnya dukungan untuk pengembangan aplikasi desktop.\n4. Penggunaan sintaksis yang lebih rumit.\n
     </item>
         <item>
         1. Performa mungkin lebih rendah untuk beberapa kasus.\n2. Pemrosesan paralel masih belum optimal.\n3. Ketersediaan perpustakaan terbatas dibandingkan bahasa lain.\n4. Kurangnya dukungan penuh dalam beberapa lingkungan.\n5. Tidak ideal untuk aplikasi berkinerja tinggi.\n

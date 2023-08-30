@@ -45,7 +45,7 @@ class DetailActivity : AppCompatActivity() {
 
 
         // button pindah ke wa
-        binding.btnShare.setOnClickListener {
+        binding.actionShare.setOnClickListener {
             val title = basprog.name
             val description = basprog.description
             val url = basprog.url
