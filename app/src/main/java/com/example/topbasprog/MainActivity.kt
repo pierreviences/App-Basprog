@@ -88,5 +88,10 @@ class MainActivity : AppCompatActivity() {
         binding.swipeRefreshLayout.isRefreshing = false
     }
 
-
+    private fun showSelectedBasprog(basprog: Basprog) {
+        val intent = Intent(this, DetailActivity::class.java).apply {
+            putExtra(DetailActivity.EXTRA_BASPROG, data)
+        }
+        this.startActivity(intent)
+      }
 }
