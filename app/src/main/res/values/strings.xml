@@ -71,76 +71,71 @@
 
     <string-array name="data_kelebihan">
         <item>
-            1. Dukungan lintas platform.
-            2. Kode yang lebih sedikit untuk tugas yang sama.
-            3. Fokus pada keterbacaan kode.
-            4. Banyak tutorial dan sumber belajar yang tersedia.
-            5. Penerapan dalam berbagai bidang.
+            1. Dukungan lintas platform.\n2. Kode yang lebih sedikit untuk tugas yang sama.\n3. Fokus pada keterbacaan kode.\n4. Banyak tutorial dan sumber belajar yang tersedia.\n5. Penerapan dalam berbagai bidang.\n
         </item>
         <item>
-            1. Penting untuk pengembangan web.
-            2. Berjalan di sisi klien (browser).
-            3. Mendukung operasi asinkronus.
-            4. Bisa digunakan dengan Node.js.
-            5. Membuat halaman web lebih interaktif.
+            1. Penting untuk pengembangan web.\n2. Berjalan di sisi klien (browser).\n3. Mendukung operasi asinkronus.\n4. Bisa digunakan dengan Node.js.\n5. Membuat halaman web lebih interaktif.\n
         </item>
         <item>
-            1. Kinerja tinggi.
-            2. Pemrograman sistem.
-            3. Kontrol perangkat keras.
-            4. Pemrograman berorientasi objek.
-            5. Banyak perpustakaan.
+            1. Kinerja tinggi.\n2. Pemrograman sistem.\n3. Kontrol perangkat keras.\n4. Pemrograman berorientasi objek.\n5. Banyak perpustakaan.\n
         </item>
         <item>
-            1. Kinerja tinggi.
-            2. Pengembangan aplikasi web.
-            3. Mudah dipelajari.
-            4. Pustaka standar yang kuat.
-            5. Paralelisme yang mudah diimplementasikan.
-        </item>
+        1. Kinerja tinggi.\n2. Pengembangan aplikasi web.\n3. Mudah dipelajari.\n4. Pustaka standar yang kuat.\n5. Paralelisme yang mudah diimplementasikan.\n
+    </item>
         <item>
-            1. Sintaksis yang ekspresif.
-            2. Fokus pada keterbacaan kode.
-            3. Pustaka standar yang kaya.
-            4. Dukungan kuat untuk pemrograman berorientasi objek.
-            5. Fleksibilitas dalam gaya pemrograman.
-        </item>
+        1. Sintaksis yang ekspresif.\n2. Fokus pada keterbacaan kode.\n3. Pustaka standar yang kaya.\n4. Dukungan kuat untuk pemrograman berorientasi objek.\n5. Fleksibilitas dalam gaya pemrograman.\n
+    </item>
         <item>
-            1. Pengembangan aplikasi iOS dan macOS.
-            2. Sintaksis yang mudah dipahami.
-            3. Keamanan dan performa tinggi.
-            4. Dukungan aktif dari Apple.
-            5. Pemrograman berorientasi objek dan fungsional.
-        </item>
+        1. Pengembangan aplikasi iOS dan macOS.\n2. Sintaksis yang mudah dipahami.\n3. Keamanan dan performa tinggi.\n4. Dukungan aktif dari Apple.\n5. Pemrograman berorientasi objek dan fungsional.\n
+    </item>
         <item>
-            1. Portabilitas lintas platform.
-            2. Bahasa yang matang dan stabil.
-            3. Ekosistem yang kuat dengan banyak perpustakaan.
-            4. Keamanan dan pengelolaan memori.
-            5. Pemrograman berorientasi objek
-        </item>
+        1. Portabilitas lintas platform.\n2. Bahasa yang matang dan stabil.\n3. Ekosistem yang kuat dengan banyak perpustakaan.\n4. Keamanan dan pengelolaan memori.\n5. Pemrograman berorientasi objek.\n
+    </item>
         <item>
-            1. Interoperabilitas dengan Java.
-            2. Sintaksis yang ekspresif dan ringkas.
-            3. Null safety bawaan.
-            4. Dukungan untuk pemrograman fungsional.
-            5. Pengembangan aplikasi Android.
-        </item>
+        1. Interoperabilitas dengan Java.\n2. Sintaksis yang ekspresif dan ringkas.\n3. Null safety bawaan.\n4. Dukungan untuk pemrograman fungsional.\n5. Pengembangan aplikasi Android.\n
+    </item>
         <item>
-            1. Fokus pada pengembangan web.
-            2. Cocok untuk membangun situs dinamis.
-            3. Dukungan luas di web hosting.
-            4. Integrasi mudah dengan basis data.
-            5. Banyak sumber daya dan komunitas.
-        </item>
+        1. Fokus pada pengembangan web.\n2. Cocok untuk membangun situs dinamis.\n3. Dukungan luas di web hosting.\n4. Integrasi mudah dengan basis data.\n5. Banyak sumber daya dan komunitas.\n
+    </item>
         <item>
-            1. Pengembangan aplikasi Windows.
-            2. Bahasa yang kuat dan kaya fitur.
-            3. Integrasi yang erat dengan platform Microsoft.
-            4. Dukungan untuk pemrograman berorientasi objek.
-            5. Pustaka standar yang lengkap.
-        </item>
+        1. Pengembangan aplikasi Windows.\n2. Bahasa yang kuat dan kaya fitur.\n3. Integrasi yang erat dengan platform Microsoft.\n4. Dukungan untuk pemrograman berorientasi objek.\n5. Pustaka standar yang lengkap.\n
+    </item>
     </string-array>
+
+    <string-array name="data_kekurangan">
+    <item>
+        1. Kinerja rendah untuk aplikasi berkinerja tinggi.\n2. Kurang luasnya komunitas dan sumber daya.\n3. Terbatasnya dukungan lintas platform.\n4. Pengelolaan memori manual.\n5. Tidak sepopuler beberapa bahasa lain dalam industri.\n
+    </item>
+        <item>
+        1. Keamanan sisi klien dapat rentan.\n2. Kode yang rumit cenderung sulit diatur.\n3. Performa mungkin tidak sebaik bahasa lain.\n4. Kontrol perangkat keras terbatas.\n5. Kurangnya fitur berorientasi objek.\n
+    </item>
+        <item>
+        1. Rentan terhadap kesalahan pemrograman yang umum.\n2. Memerlukan pengaturan yang lebih rumit.\n3. Pengelolaan memori manual.\n4. Kode cenderung lebih panjang dan kompleks.\n5. Tidak banyak mendukung pengembangan web.\n
+    </item>
+        <item>
+        1. Kurang populer dibandingkan bahasa lain.\n2. Terbatasnya perpustakaan pihak ketiga.\n3. Belum ada pustaka standar yang kuat.\n4. Kurangnya dukungan untuk pengembangan aplikasi desktop.\n5. Penggunaan sintaksis yang lebih rumit.\n
+    </item>
+        <item>
+        1. Performa mungkin lebih rendah untuk beberapa kasus.\n2. Pemrosesan paralel masih belum optimal.\n3. Ketersediaan perpustakaan terbatas dibandingkan bahasa lain.\n4. Kurangnya dukungan penuh dalam beberapa lingkungan.\n5. Tidak ideal untuk aplikasi berkinerja tinggi.\n
+    </item>
+        <item>
+        1. Kurangnya dukungan lintas platform.\n2. Kurang populer di luar ekosistem Apple.\n3. Terbatas pada pengembangan aplikasi Apple.\n4. Belajar Swift memerlukan waktu dan usaha.\n5. Tidak cocok untuk beberapa jenis proyek.\n
+    </item>
+        <item>
+        1. Kompleksitas sintaksis yang lebih tinggi.\n2. Memerlukan lebih banyak kode untuk tugas sederhana.\n3. Terbatasnya dukungan untuk pemrograman fungsional.\n4. Pengelolaan memori manual.\n5. Menyebabkan lebih banyak boilerplate code.\n
+    </item>
+        <item>
+        1. Lebih rumit daripada Kotlin dalam beberapa hal.\n2. Kurangnya dukungan terhadap beberapa fitur modern.\n3. Dukungan pustaka pihak ketiga tidak selengkap Kotlin.\n4. Banyak aplikasi yang masih menggunakan Java.\n5. Menyebabkan lebih banyak kode boilerplate.\n
+    </item>
+        <item>
+        1. Kinerja rendah dalam beberapa kasus.\n2. Tidak ideal untuk aplikasi berkinerja tinggi.\n3. Pengelolaan memori manual.\n4. Tidak sepopuler beberapa bahasa web lainnya.\n5. Sintaksis yang kompleks dalam beberapa aspek.\n
+    </item>
+        <item>
+        1. Kinerja rendah untuk aplikasi berkinerja tinggi.\n2. Kurang luasnya komunitas dan sumber daya.\n3. Terbatasnya dukungan lintas platform.\n4. Pengelolaan memori manual.\n5. Tidak sepopuler beberapa bahasa lain dalam industri.\n
+    </item>
+    </string-array>
+
+
 
     <string-array name="data_description">
         <item>

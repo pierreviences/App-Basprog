@@ -12,5 +12,6 @@ data class Basprog (
     val like: String,
     val creator: String,
     val years: String,
-    val kelebihan: String
+    val kelebihan: String,
+    val kekurangan: String
     ) : Parcelable

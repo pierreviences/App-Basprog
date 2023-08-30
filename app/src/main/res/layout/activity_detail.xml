@@ -81,7 +81,15 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="2dp"
                         android:fontFamily="@font/poppinsmedium"
-                        android:text="66,7 % developer stack overflow"
+                        android:text="66,7"
+                        android:textSize="11sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="% developer stack overflow"
                         android:textSize="11sp" />
                 </LinearLayout>
 
@@ -107,6 +115,7 @@
                         android:textSize="11sp" />
 
                     <TextView
+                        android:id="@+id/tvCreator"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
@@ -138,6 +147,7 @@
                         android:textSize="11sp" />
 
                     <TextView
+                        android:id="@+id/tvTahun"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"

@@ -55,10 +55,11 @@ class MainActivity : AppCompatActivity() {
         val dataCreators = resources.getStringArray(R.array.data_pencipta)
         val dataKelebihan = resources.getStringArray(R.array.data_kelebihan)
         val dataDescription = resources.getStringArray(R.array.data_description)
+        val dataKekurangan = resources.getStringArray(R.array.data_kekurangan)
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
         val listBasprog = ArrayList<Basprog>()
         for (i in dataName.indices) {
-            val basprog = Basprog(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1), dataLikes[i], dataCreators[i], dataYears[i], dataKelebihan[i])
+            val basprog = Basprog(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1), dataLikes[i], dataCreators[i], dataYears[i], dataKelebihan[i], dataKekurangan[i])
             listBasprog.add(basprog)
         }
         return listBasprog
