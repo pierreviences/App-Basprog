@@ -20,6 +20,12 @@ class DetailActivity : AppCompatActivity() {
             showDetails(it)
         }
 
+        binding.back.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
     }
 
     private fun showDetails(basprog: Basprog) {
