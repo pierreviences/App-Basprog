@@ -15,14 +15,20 @@
         android:theme="@style/Theme.TopBasprog"
         tools:targetApi="31">
         <activity
+            android:name=".DetailActivity"
+            android:exported="true"
+            android:theme="@style/Base.Theme.TopBasprog3"
+            >
+        </activity>
+        <activity
             android:name=".ProfileActivity"
             android:exported="false"
-            android:theme="@style/Base.Theme.TopBasprog3"
-            />
+            android:theme="@style/Base.Theme.TopBasprog3" />
         <activity
             android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/Base.Theme.TopBasprog2">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,7 +37,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

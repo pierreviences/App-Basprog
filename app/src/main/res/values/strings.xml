@@ -1,6 +1,22 @@
 <resources>
     <string name="app_name">Top 10 Basprog</string>
-    <string name="description">Python adalah bahasa pemrograman tingkat tinggi yang populer karena sintaksis yang mudah dibaca dan ditulis. asdasdasdasdas asdasdasd </string>
+    <string name="description">
+    Python adalah bahasa pemrograman tingkat tinggi yang populer, dikenal karena sintaksis yang mudah dibaca dan digunakan dalam berbagai aplikasi mulai dari pengembangan web hingga analisis data.
+    </string>
+    <string name="kelebihan">
+        - alskdjasdkjaslkdjaskldjaslkjas
+        - asdlkjasajdldjasldjasldjalsjdalks
+        - lakdjlaskdjasldjalsdjladjlaskjasldkj
+        - alsdkjasdjasdjasljsladjalsdjasl
+    </string>
+
+    <string name="kekurangan">
+        - alskdjasdkjaslkdjaskldjaslkjas
+        - asdlkjasajdldjasldjasldjalsjdalks
+        - lakdjlaskdjasldjalsdjladjlaskjasldkj
+        - alsdkjasdjasdjasljsladjalsdjasl
+    </string>
+
     <string-array name="data_name">
         <item>Python</item>
         <item>Javascript</item>

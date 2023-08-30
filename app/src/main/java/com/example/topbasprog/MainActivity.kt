@@ -88,7 +88,5 @@ class MainActivity : AppCompatActivity() {
         binding.swipeRefreshLayout.isRefreshing = false
     }
 
-    private fun showSelectedBasprog(basprog: Basprog) {
-        Toast.makeText(this, "Kamu memilih " + basprog.name, Toast.LENGTH_SHORT).show()
-    }
+
 }
