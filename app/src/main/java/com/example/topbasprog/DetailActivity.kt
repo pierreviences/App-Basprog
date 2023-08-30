@@ -11,5 +11,22 @@ class DetailActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDetailBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityDetailBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        val basprog = intent.getParcelableExtra<Basprog>(EXTRA_BASPROG)
+        basprog?.let {
+            showDetails(it)
+        }
 
+    }
+
+    private fun showDetails(basprog: Basprog) {
+        binding.tvName.text = basprog.name
+        binding.tvLike.text = basprog.like
+        binding.tvCreator.text = basprog.creator
+        binding.tvTahun.text = basprog.years
+        binding.tvDescription.text = basprog.description
+        binding.gambar.setImageResource(basprog.photo)
+        binding.kelebihan.text = basprog.kelebihan
+    }
 }
