@@ -36,5 +36,26 @@ class DetailActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
         }
+
+
+        // button pindah ke wa
+        binding.btnShare.setOnClickListener {
+            val title = basprog.name
+            val description = basprog.description
+            val url = basprog.url
+            val shareIntent = Intent(Intent.ACTION_SEND)
+            shareIntent.type = "text/plain"
+            val textToShare = "Bahasa Pemrograman: $title\n\nDeskripsi : \n$description\n\nLihat Selengkapnya : $url"
+            shareIntent.putExtra(Intent.EXTRA_TEXT, textToShare)
+            shareIntent.setPackage("com.whatsapp")
+
+            try {
+                startActivity(shareIntent)
+            } catch (e: Exception) {
+                val webUrl = "https://web.whatsapp.com/"
+                val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(webUrl))
+                startActivity(browserIntent)
+            }
+        }
     }
 }
