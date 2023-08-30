@@ -69,7 +69,7 @@
       <TextView
           android:layout_width="300dp"
           android:layout_height="wrap_content"
-          android:text='"Programming is the art of algorithmdesign and the craft of debugging errant code"'
+          android:text='"Programming is the art of algorithm design and the craft of debugging errant code"'
           android:textAlignment="center"
           android:textSize="17dp"
           android:textStyle="italic"
