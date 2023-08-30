@@ -43,6 +43,7 @@
             android:padding="15dp">
 
             <ImageView
+                android:id="@+id/gambar"
                 android:layout_width="110dp"
                 android:layout_height="140dp"
                 android:src="@drawable/top1" />
@@ -53,6 +54,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/tvName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -73,6 +75,7 @@
                         android:src="@drawable/love" />
 
                     <TextView
+                        android:id="@+id/tvLike"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"

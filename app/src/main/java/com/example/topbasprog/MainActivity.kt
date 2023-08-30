@@ -50,11 +50,15 @@ class MainActivity : AppCompatActivity() {
 
     private fun getListBasprog(): ArrayList<Basprog> {
         val dataName = resources.getStringArray(R.array.data_name)
+        val dataLikes = resources.getStringArray(R.array.data_suka)
+        val dataYears = resources.getStringArray(R.array.data_tahun)
+        val dataCreators = resources.getStringArray(R.array.data_pencipta)
+        val dataKelebihan = resources.getStringArray(R.array.data_kelebihan)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
         val listBasprog = ArrayList<Basprog>()
         for (i in dataName.indices) {
-            val basprog = Basprog(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
+            val basprog = Basprog(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1), dataLikes[i], dataCreators[i], dataYears[i], dataKelebihan[i])
             listBasprog.add(basprog)
         }
         return listBasprog
@@ -90,7 +94,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun showSelectedBasprog(basprog: Basprog) {
         val intent = Intent(this, DetailActivity::class.java).apply {
-            putExtra(DetailActivity.EXTRA_BASPROG, data)
+            putExtra(DetailActivity.EXTRA_BASPROG, basprog)
         }
         this.startActivity(intent)
       }

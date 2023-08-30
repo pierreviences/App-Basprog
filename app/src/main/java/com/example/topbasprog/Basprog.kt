@@ -8,5 +8,9 @@ import kotlinx.parcelize.Parcelize
 data class Basprog (
     val name: String,
     val description: String,
-    val photo: Int
+    val photo: Int,
+    val like: String,
+    val creator: String,
+    val years: String,
+    val kelebihan: String
     ) : Parcelable
