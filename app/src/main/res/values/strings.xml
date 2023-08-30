@@ -117,7 +117,7 @@
 
     <string-array name="data_kekurangan">
     <item>
-        1. Kinerja rendah untuk aplikasi berkinerja tinggi.\n2. Kurang luasnya komunitas dan sumber daya.\n4. Pengelolaan memori manual.\n
+        1. Kinerja rendah untuk aplikasi berkinerja tinggi.\n2. Kurang luasnya komunitas dan sumber daya.\n3. Pengelolaan memori manual.\n
     </item>
         <item>
         1. Keamanan sisi klien dapat rentan.\n2. Kode yang rumit cenderung sulit diatur.\n3. Performa mungkin tidak sebaik bahasa lain.\n4. Kontrol perangkat keras terbatas.\n5. Kurangnya fitur berorientasi objek.\n
