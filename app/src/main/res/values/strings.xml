@@ -29,6 +29,119 @@
         <item>PHP</item>
         <item>C#</item>
     </string-array>
+
+    <string-array name="data_suka">
+        <item>70,2</item>
+        <item>66,4</item>
+        <item>64</item>
+        <item>62,3</item>
+        <item>58,4</item>
+        <item>56,6</item>
+        <item>54,9</item>
+        <item>53,1</item>
+        <item>48,7</item>
+        <item>45,6</item>
+    </string-array>
+
+    <string-array name="data_pencipta">
+        <item>Guido Rossum</item>
+        <item>Brendan Eich</item>
+        <item>Bjarne Strou</item>
+        <item>Rob Pike</item>
+        <item>Yukihiro Matz</item>
+        <item>Carl Reu</item>
+        <item>James Gosling</item>
+        <item>Andrey Bres</item>
+        <item>Rasmus L</item>
+        <item>Anders H</item>
+    </string-array>
+
+    <string-array name="data_tahun">
+        <item>1991</item>
+        <item>1995</item>
+        <item>1985</item>
+        <item>2009</item>
+        <item>1995</item>
+        <item>2014</item>
+        <item>1995</item>
+        <item>2011</item>
+        <item>1995</item>
+        <item>2000</item>
+    </string-array>
+
+    <string-array name="data_kelebihan">
+        <item>
+            1. Dukungan lintas platform.
+            2. Kode yang lebih sedikit untuk tugas yang sama.
+            3. Fokus pada keterbacaan kode.
+            4. Banyak tutorial dan sumber belajar yang tersedia.
+            5. Penerapan dalam berbagai bidang.
+        </item>
+        <item>
+            1. Penting untuk pengembangan web.
+            2. Berjalan di sisi klien (browser).
+            3. Mendukung operasi asinkronus.
+            4. Bisa digunakan dengan Node.js.
+            5. Membuat halaman web lebih interaktif.
+        </item>
+        <item>
+            1. Kinerja tinggi.
+            2. Pemrograman sistem.
+            3. Kontrol perangkat keras.
+            4. Pemrograman berorientasi objek.
+            5. Banyak perpustakaan.
+        </item>
+        <item>
+            1. Kinerja tinggi.
+            2. Pengembangan aplikasi web.
+            3. Mudah dipelajari.
+            4. Pustaka standar yang kuat.
+            5. Paralelisme yang mudah diimplementasikan.
+        </item>
+        <item>
+            1. Sintaksis yang ekspresif.
+            2. Fokus pada keterbacaan kode.
+            3. Pustaka standar yang kaya.
+            4. Dukungan kuat untuk pemrograman berorientasi objek.
+            5. Fleksibilitas dalam gaya pemrograman.
+        </item>
+        <item>
+            1. Pengembangan aplikasi iOS dan macOS.
+            2. Sintaksis yang mudah dipahami.
+            3. Keamanan dan performa tinggi.
+            4. Dukungan aktif dari Apple.
+            5. Pemrograman berorientasi objek dan fungsional.
+        </item>
+        <item>
+            1. Portabilitas lintas platform.
+            2. Bahasa yang matang dan stabil.
+            3. Ekosistem yang kuat dengan banyak perpustakaan.
+            4. Keamanan dan pengelolaan memori.
+            5. Pemrograman berorientasi objek
+        </item>
+        <item>
+            1. Interoperabilitas dengan Java.
+            2. Sintaksis yang ekspresif dan ringkas.
+            3. Null safety bawaan.
+            4. Dukungan untuk pemrograman fungsional.
+            5. Pengembangan aplikasi Android.
+        </item>
+        <item>
+            1. Fokus pada pengembangan web.
+            2. Cocok untuk membangun situs dinamis.
+            3. Dukungan luas di web hosting.
+            4. Integrasi mudah dengan basis data.
+            5. Banyak sumber daya dan komunitas.
+        </item>
+        <item>
+            1. Pengembangan aplikasi Windows.
+            2. Bahasa yang kuat dan kaya fitur.
+            3. Integrasi yang erat dengan platform Microsoft.
+            4. Dukungan untuk pemrograman berorientasi objek.
+            5. Pustaka standar yang lengkap.
+        </item>
+    </string-array>
+
     <string-array name="data_description">
         <item>
             Python adalah bahasa pemrograman tingkat tinggi yang populer, dikenal karena sintaksis yang mudah dibaca dan digunakan dalam berbagai aplikasi mulai dari pengembangan web hingga analisis data.
