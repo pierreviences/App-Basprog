@@ -31,6 +31,10 @@ class DetailActivity : AppCompatActivity() {
         binding.gambar.setImageResource(basprog.photo)
         binding.kelebihan.text = basprog.kelebihan
         binding.kekurangan.text = basprog.kekurangan
-       
+        binding.btnOverview.setOnClickListener {
+            val url = basprog.url
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+            startActivity(intent)
+        }
     }
 }
